@@ -1,0 +1,24 @@
+// Version 1
+public class CountLeapYears {
+    public static void main(String[] args) {
+        int count = 0;
+        for(int y = 2000; y <= 2020; y++) if((y%4==0 && y%100!=0) || (y%400==0)) count++;
+        System.out.println("Leap Years: " + count);
+    }
+}
+// Version 2
+public class CountLeapYears {
+    public static void main(String[] args) {
+        int count = 0;
+        for(int y = 2000; y <= 2020; y++) if((y%4==0 && y%100!=0) || (y%400==0)) count++;
+        System.out.println("Leap Years: " + count);
+    }
+}
+// Version 3
+public class CountLeapYears {
+    public static void main(String[] args) {
+        int count = 0;
+        for(int y = 2000; y <= 2020; y++) if((y%4==0 && y%100!=0) || (y%400==0)) count++;
+        System.out.println("Leap Years: " + count);
+    }
+}
