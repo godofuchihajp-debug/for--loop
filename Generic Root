@@ -1,0 +1,24 @@
+// Version 1
+public class GenericRoot {
+    public static void main(String[] args) {
+        int n = 99;
+        while(n > 9) { int sum = 0; for(; n > 0; n /= 10) sum += n % 10; n = sum; }
+        System.out.println("Generic Root: " + n);
+    }
+}
+// Version 2
+public class GenericRoot {
+    public static void main(String[] args) {
+        int n = 99;
+        while(n > 9) { int sum = 0; for(; n > 0; n /= 10) sum += n % 10; n = sum; }
+        System.out.println("Generic Root: " + n);
+    }
+}
+// Version 3
+public class GenericRoot {
+    public static void main(String[] args) {
+        int n = 99;
+        while(n > 9) { int sum = 0; for(; n > 0; n /= 10) sum += n % 10; n = sum; }
+        System.out.println("Generic Root: " + n);
+    }
+}
