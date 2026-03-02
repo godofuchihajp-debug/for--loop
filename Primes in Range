@@ -1,0 +1,27 @@
+// Version 1
+public class PrimesInRange {
+    public static void main(String[] args) {
+        for(int n = 10; n <= 30; n++) {
+            boolean p = true; for(int i = 2; i * i <= n; i++) if(n % i == 0) p = false;
+            if(p) System.out.print(n + " ");
+        }
+    }
+}
+// Version 2
+public class PrimesInRange {
+    public static void main(String[] args) {
+        for(int n = 10; n <= 30; n++) {
+            boolean p = true; for(int i = 2; i * i <= n; i++) if(n % i == 0) p = false;
+            if(p) System.out.print(n + " ");
+        }
+    }
+}
+// Version 3
+public class PrimesInRange {
+    public static void main(String[] args) {
+        for(int n = 10; n <= 30; n++) {
+            boolean p = true; for(int i = 2; i * i <= n; i++) if(n % i == 0) p = false;
+            if(p) System.out.print(n + " ");
+        }
+    }
+}
