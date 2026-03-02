@@ -1,0 +1,24 @@
+// Version 1
+public class SpyNumber {
+    public static void main(String[] args) {
+        int n = 1124, sum = 0, product = 1;
+        for(; n != 0; n /= 10) { int d = n % 10; sum += d; product *= d; }
+        if(sum == product) System.out.println("Spy Number");
+    }
+}
+// Version 2
+public class SpyNumber {
+    public static void main(String[] args) {
+        int n = 1124, sum = 0, product = 1;
+        for(; n != 0; n /= 10) { int d = n % 10; sum += d; product *= d; }
+        if(sum == product) System.out.println("Spy Number");
+    }
+}
+// Version 3
+public class SpyNumber {
+    public static void main(String[] args) {
+        int n = 1124, sum = 0, product = 1;
+        for(; n != 0; n /= 10) { int d = n % 10; sum += d; product *= d; }
+        if(sum == product) System.out.println("Spy Number");
+    }
+}
