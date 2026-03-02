@@ -1,0 +1,24 @@
+// Version 1
+import java.util.Scanner;
+public class InfiniteLoopBreak {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        for(;;) { System.out.print("0 to stop: "); if(sc.nextInt() == 0) break; }
+    }
+}
+// Version 2
+import java.util.Scanner;
+public class InfiniteLoopBreak {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        for(;;) { System.out.print("0 to stop: "); if(sc.nextInt() == 0) break; }
+    }
+}
+// Version 3
+import java.util.Scanner;
+public class InfiniteLoopBreak {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        for(;;) { System.out.print("0 to stop: "); if(sc.nextInt() == 0) break; }
+    }
+}
