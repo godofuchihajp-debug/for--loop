@@ -1,0 +1,24 @@
+// Version 1
+public class DecimalToOctal {
+    public static void main(String[] args) {
+        int n = 100, oct = 0, p = 1;
+        for(; n != 0; n /= 8) { oct += (n % 8) * p; p *= 10; }
+        System.out.println("Octal: " + oct);
+    }
+}
+// Version 2
+public class DecimalToOctal {
+    public static void main(String[] args) {
+        int n = 100, oct = 0, p = 1;
+        for(; n != 0; n /= 8) { oct += (n % 8) * p; p *= 10; }
+        System.out.println("Octal: " + oct);
+    }
+}
+// Version 3
+public class DecimalToOctal {
+    public static void main(String[] args) {
+        int n = 100, oct = 0, p = 1;
+        for(; n != 0; n /= 8) { oct += (n % 8) * p; p *= 10; }
+        System.out.println("Octal: " + oct);
+    }
+}
