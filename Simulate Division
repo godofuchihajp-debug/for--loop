@@ -1,0 +1,24 @@
+// Version 1
+public class SimulateDivision {
+    public static void main(String[] args) {
+        int dividend = 20, divisor = 3, q = 0;
+        for(; dividend >= divisor; dividend -= divisor) q++;
+        System.out.println("Quotient: " + q);
+    }
+}
+// Version 2
+public class SimulateDivision {
+    public static void main(String[] args) {
+        int dividend = 20, divisor = 3, q = 0;
+        for(; dividend >= divisor; dividend -= divisor) q++;
+        System.out.println("Quotient: " + q);
+    }
+}
+// Version 3
+public class SimulateDivision {
+    public static void main(String[] args) {
+        int dividend = 20, divisor = 3, q = 0;
+        for(; dividend >= divisor; dividend -= divisor) q++;
+        System.out.println("Quotient: " + q);
+    }
+}
