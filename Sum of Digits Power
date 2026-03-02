@@ -1,0 +1,27 @@
+// Version 1
+public class DigitsPowerCount {
+    public static void main(String[] args) {
+        int n = 123, c = 0, t = n, sum = 0;
+        for(int x = n; x > 0; x /= 10) c++;
+        for(; t > 0; t /= 10) { int d = t % 10, p = 1; for(int j = 1; j <= c; j++) p *= d; sum += p; }
+        System.out.println("Result: " + sum);
+    }
+}
+// Version 2
+public class DigitsPowerCount {
+    public static void main(String[] args) {
+        int n = 123, c = 0, t = n, sum = 0;
+        for(int x = n; x > 0; x /= 10) c++;
+        for(; t > 0; t /= 10) { int d = t % 10, p = 1; for(int j = 1; j <= c; j++) p *= d; sum += p; }
+        System.out.println("Result: " + sum);
+    }
+}
+// Version 3
+public class DigitsPowerCount {
+    public static void main(String[] args) {
+        int n = 123, c = 0, t = n, sum = 0;
+        for(int x = n; x > 0; x /= 10) c++;
+        for(; t > 0; t /= 10) { int d = t % 10, p = 1; for(int j = 1; j <= c; j++) p *= d; sum += p; }
+        System.out.println("Result: " + sum);
+    }
+}
