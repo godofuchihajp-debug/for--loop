@@ -1,0 +1,24 @@
+// Version 1
+public class SumAP {
+    public static void main(String[] args) {
+        int a = 1, d = 3, n = 5, sum = 0, current = a;
+        for(int i = 1; i <= n; i++) { sum += current; current += d; }
+        System.out.println("Sum: " + sum);
+    }
+}
+// Version 2
+public class SumAP {
+    public static void main(String[] args) {
+        int a = 1, d = 3, n = 5, sum = 0, current = a;
+        for(int i = 1; i <= n; i++) { sum += current; current += d; }
+        System.out.println("Sum: " + sum);
+    }
+}
+// Version 3
+public class SumAP {
+    public static void main(String[] args) {
+        int a = 1, d = 3, n = 5, sum = 0, current = a;
+        for(int i = 1; i <= n; i++) { sum += current; current += d; }
+        System.out.println("Sum: " + sum);
+    }
+}
